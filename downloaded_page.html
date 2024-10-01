@@ -1,0 +1,66 @@
+<html class="w100 h100"><head>
+  <title>GROUPSESSION</title>
+  <link rel="SHORTCUT ICON" href="../common/images/favicon.ico">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="../common/css/bootstrap-reboot.css?561" type="text/css">
+  <link rel="stylesheet" href="../common/css/layout.css?561" type="text/css">
+  <link rel="stylesheet" href="../common/css/all.css?561" type="text/css">
+  <link rel="stylesheet" href="../common/css/theme_original/theme_base.css?561" type="text/css"><link rel="stylesheet" href="../common/css/theme_original/light/theme_base.css?561" type="text/css"><link rel="stylesheet" href="../common/css/theme_original/light/original/theme.css?561" type="text/css">
+  <script type="text/javascript" src="../common/js/jquery-3.3.1.min.js?561"></script>
+  <link rel="stylesheet" href="../common/css/common.css?561" type="text/css">
+  <script type="text/javascript" src="../common/js/websocket.js?561"></script>
+  <script type="text/javascript" src="../common/js/push.min.js?561"></script>
+  <script type="text/javascript" src="../common/js/notice.js?561"></script>
+  <script type="text/javascript" src="../common/js/cmn002.js?561"></script>
+
+<script type="text/javascript">
+  <!--
+    var msglist_cmn002 = (function() {
+      //使用するメッセージキーの配列を作成
+      var ret = new Array();
+      ret['cmn.admin.setting'] = '管理者設定';
+      ret['cmn.preferences2'] = '個人設定';
+      ret['cht.cht010.80'] = '全員';
+      return ret;
+    })();
+    -->
+  </script>
+</head>
+
+<body class="body_bg cmn002" onload="websocket('../main/man001.do');">
+  <iframe id="menuFrame" loading="lazy" class="cmn002_menu border_none" src="../common/cmn003.do?menuPage=1" name="menu" style="height: 121px;"></iframe>
+  <iframe id="bodyFrame" loading="lazy" class="cmn002_body js_body border_none" src="../main/man001.do" name="body" style="margin-top: 0px;"></iframe>
+  
+  
+  <div class="js_setteiLink topMenu_confList fw_n txt_l no_w display_n wp150 pos_abs z_idx100">
+    <div class="js_setteiArea settei_area bt0"></div>
+    <div class="bor1">
+      <div class="pl5 pr5 pt5 bgC_body lh100">
+      <div class="verAlignMid">
+        <img class="btn_originalImg-display mr5" src="../main/images/original/menu_icon_single.png">
+        <img class="btn_classicImg-display mr5" src="../main/images/classic/menu_icon_single.gif">
+        メイン
+      </div>
+    </div>
+    <div class="js_setteiMainArea"></div>
+    
+      
+      
+    <div onclick="clickMenuTarConf(0, 0, 0, &quot;main&quot;);" class="settei_content bgC_body content-hoverChange">
+        個人設定
+      </div>
+      <div onclick="clickMenuTarConf(2, 0, 0, &quot;main&quot;);" class="settei_content bgC_body content-hoverChange">
+        ブラウザ通知
+      </div>
+    
+    <div class="js_setteiPluginpArea">
+    </div>
+    </div>
+  </div>
+  <div class="pos_abs display_n js_settingResetArea w100 h100"></div>
+
+<noframes>
+  GROUPSESSIONはフレーム対応のブラウザでなければご利用いただけません。
+</noframes>
+
+</body></html>
