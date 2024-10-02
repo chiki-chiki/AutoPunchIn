@@ -1,4 +1,4 @@
 @echo off
-python gs_autologin.py
-python tl_autologin.py
+python AutoPunchIn_GS.py
+python AutoPunchIn_TR.py
 pause
